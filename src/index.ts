@@ -1,20 +1,5 @@
 import type { DicewareKey } from "./types"
-
-import { readFileSync } from "fs"
-import { fileURLToPath } from "url"
-import { dirname, join } from "path"
-
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = dirname(__filename)
-
-const content = readFileSync(join(__dirname, "./words.txt"), "utf-8")
-
-const words: string[] = (content
-    .trim()
-    .split(/\r?\n/)
-    .map(word => word.trim())
-    .filter(word => word.length > 0)
-)
+import { words } from "./words"
 
 /**
  * Generates a random diceware key based on Math.random.

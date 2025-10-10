@@ -26,7 +26,7 @@ console.log(
 | `words`           | Array with all 7776 words from the diceware list      | ``dicewarePTBR.words``                            |
 | `generatePhrase`  | Generates a random passphrase based on words quantity | ``dicewarePTBR.generatePhrase(8)``                |
 | `generateKey`     | Generates a random Diceware Key                       | ``dicewarePTBR.generateKey()``                    |
-| `keyToIndex`      | Converts a Diceware Key into a word list index        | ``dicewarePTBR.generateKey("11111")``             |
+| `keyToIndex`      | Converts a Diceware Key into a word list index        | ``dicewarePTBR.keyToIndex("11111")``             |
 | `getWord`         | Get the corresponding word based on a Diceware Key    | ``dicewarePTBR.getWord("11111")``                 |
 
 ### Types:
@@ -44,7 +44,7 @@ console.log(
 - Problematic words have been avoided.
 - Excessive variations of the same word (such as verb conjugation) have been avoided.
 - Extremely little-known words have been avoided.
-- You can manually check all current used words [here](https://github.com/cicero-mello/diceware-ptbr/blob/main/src/words.txt).
+- You can manually check all current used words [here](https://github.com/cicero-mello/diceware-ptbr/blob/main/src/words.ts).
 
 ## Tips
 - Brazilian Portuguese has accentuation, so do not use this diceware in projects with fonts without such support.
