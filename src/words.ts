@@ -1457,7 +1457,6 @@ export const words: string[] = (`
     cara
     caraca
     caracol
-    caralho
     caras
     caráter
     carbono
@@ -3639,6 +3638,7 @@ export const words: string[] = (`
     gestão
     gesto
     gestos
+    gibi
     gibis
     giga
     gigante

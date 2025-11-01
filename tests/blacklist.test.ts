@@ -15,6 +15,7 @@ export const BLACKLIST = [
     "porno",
     "pornô",
     "cacete",
+    "caralho",
     "buceta",
     "rola",
     "anal",
