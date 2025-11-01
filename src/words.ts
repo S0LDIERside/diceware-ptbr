@@ -1972,7 +1972,7 @@ export const words: string[] = (`
     condes
     condor
     conduta
-    cones
+    cone
     conexão
     confusa
     confuso
