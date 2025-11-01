@@ -1598,7 +1598,7 @@ export const words: string[] = (`
     cela
     célebre
     celeiro
-    céleres
+    célere
     celeste
     celtas
     célula
