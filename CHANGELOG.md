@@ -9,13 +9,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Word list update
-
-
-## [3.0.0] - 2025-11-23
-
-### Changed
-
 - **Breaking changes:** `words` is now a readonly array and cannot be mutated
 
 - Architecture changes, now using TXT files and scripts to facilitate contributions
